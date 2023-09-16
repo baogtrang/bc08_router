@@ -15,6 +15,10 @@ export default class Header extends Component {
       path: "/life-cycle",
       name: "Life Cycle",
     },
+    {
+      path: "/dssv",
+      name: "DSSV",
+    },
   ];
   render() {
     return (
