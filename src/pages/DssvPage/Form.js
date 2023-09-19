@@ -100,3 +100,6 @@ let mapDispatchToProps = (dispatch) => {
   };
 };
 export default connect(null, mapDispatchToProps)(Form);
+
+// rfc
+// useState

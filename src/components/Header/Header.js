@@ -19,6 +19,10 @@ export default class Header extends Component {
       path: "/dssv",
       name: "DSSV",
     },
+    {
+      path: "/hook",
+      name: "Hook",
+    },
   ];
   render() {
     return (
