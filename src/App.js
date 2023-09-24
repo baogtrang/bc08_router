@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import LifeCyclePage from "./pages/LifeCyclePage/LifeCyclePage";
 import DssvPage from "./pages/DssvPage/DssvPage";
 import DemoHook from "./pages/DemoHook/DemoHook";
+import TaiXiuPage from "./pages/TaiXiuPage/TaiXiuPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/life-cycle" element={<LifeCyclePage />} />
           <Route path="/dssv" element={<DssvPage />} />
           <Route path="/hook" element={<DemoHook />} />
+          <Route path="/tai-xiu" element={<TaiXiuPage />} />
         </Routes>
       </BrowserRouter>
     </div>
