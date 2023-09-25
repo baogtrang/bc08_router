@@ -1,0 +1,12 @@
+@font-face {
+    font-family: fontGame;
+    src: url(./Pony.ttf);
+}
+#game-page {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+    font-family: fontGame;
+}
+
