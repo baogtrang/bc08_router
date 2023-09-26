@@ -49,8 +49,8 @@ export default function TaiXiuPage() {
         setXucXacArr(newXucXac);
         setSoLuotChoi(++soLuotChoi);
         // xử lý thắng thua
-        if (tongDiem >= 11) {
-
+        if (tongDiem>=11&&luaChon==TAI||(tongDiem<11&&luaChon==XIU)) {
+            setSoBanThang(++soBanThang);
         }
 
     }
